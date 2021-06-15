@@ -68,8 +68,8 @@ async function main(target_email) {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'mingchaitest27@gmail.com', // generated ethereal user
-      pass: 'hFgAnvpTHGEL5zMC', // generated ethereal password
+      user: 'smtp email', // generated ethereal user
+      pass: 'pass', // generated ethereal password
     },
     tls: {
       rejectUnauthorized: true
